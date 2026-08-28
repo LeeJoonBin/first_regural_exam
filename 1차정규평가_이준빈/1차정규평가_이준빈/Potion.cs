@@ -1,15 +1,15 @@
 ﻿namespace _1차정규평가_이준빈;
-// 추상클래스 2 아이템메뉴
-public abstract class ItemMenu
+// 추상 클래스 1 포션
+public abstract class Potion
 {
-    protected const int MINQUANTITY = 3;
-    protected const float DISCOUNT_RATE = 0.10f;
+    protected const int MINQUANTITY = 10;
+    protected const float DISCOUNT_RATE = 0.40f;
     
     protected string Name;
     protected string Description;
     protected int Prise;
-
-    protected ItemMenu(string name, string description, int prise)
+    
+    protected Potion(string name, string description, int prise)
     {
         Name = name;
         Description = description;
@@ -27,5 +27,4 @@ public abstract class ItemMenu
         }
         return 0;
     }
-    
 }

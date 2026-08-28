@@ -1,6 +1,8 @@
 ﻿namespace _1차정규평가_이준빈;
 
-public class HealthPotion : PotionMenu
+public class HealthPotion : Potion
 {
-    
+    public HealthPotion() : base("체력포션", "Potion", 150)
+    {
+    }
 }
