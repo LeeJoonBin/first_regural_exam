@@ -23,6 +23,7 @@ public abstract class Item
         {
             
             remain = (int)(Prise * DISCOUNT_RATE);
+            Console.WriteLine($"{MINQUANTITY}개 이상 구매하셔 10% 할인되었습니다.");
             return remain;
         }
         return 0;
