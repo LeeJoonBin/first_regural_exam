@@ -6,15 +6,18 @@ public abstract class Item
     protected const float DISCOUNT_RATE = 0.10f;
     protected const int POTION_MINIMUM = 5;
     
-    protected string Name { get;  set; }
-    protected string Description { get;  set; }
-    protected int Prise { get; set; }
+    public string Name { get;  set; }
+    public string Description { get;  set; }
+    public int Prise { get; set; }
+    
+    public ItemCategory ItemCategory { get;  set; }
 
-    protected Item(string name, string description, int prise)
+    public Item(string name, string description, int prise, ItemCategory category)
     {
         Name = name;
         Description = description;
         Prise = prise;
+        ItemCategory = category;
     }
     
     public abstract int CalculatePrice(int count);

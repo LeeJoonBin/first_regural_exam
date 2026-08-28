@@ -2,7 +2,7 @@
 // 할인 가격 적용예정
 public class SwiftnessPotion : Item
 {
-    public SwiftnessPotion(string name, string description, int prise) : base(name, description, prise)
+    public SwiftnessPotion(string name, string description, int prise, ItemCategory category) : base(name, description, prise, category)
     {
     }
 
