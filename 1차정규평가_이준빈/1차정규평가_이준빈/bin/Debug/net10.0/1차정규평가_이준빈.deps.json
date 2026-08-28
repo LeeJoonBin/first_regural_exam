@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "1차정규평가_이준빈/1.0.0": {
+        "runtime": {
+          "1차정규평가_이준빈.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "1차정규평가_이준빈/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

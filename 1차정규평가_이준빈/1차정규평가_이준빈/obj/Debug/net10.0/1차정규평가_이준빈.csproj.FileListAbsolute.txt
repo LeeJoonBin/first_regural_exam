@@ -3,3 +3,13 @@ C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1�
 C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\1차정규평가_이준빈.AssemblyInfo.cs
 C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\1차정규평가_이준빈.csproj.CoreCompileInputs.cache
 C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\1차정규평가_이준빈.sourcelink.json
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\bin\Debug\net10.0\1차정규평가_이준빈.exe
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\bin\Debug\net10.0\1차정규평가_이준빈.deps.json
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\bin\Debug\net10.0\1차정규평가_이준빈.runtimeconfig.json
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\bin\Debug\net10.0\1차정규평가_이준빈.dll
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\bin\Debug\net10.0\1차정규평가_이준빈.pdb
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\1차정규평가_이준빈.dll
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\refint\1차정규평가_이준빈.dll
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\1차정규평가_이준빈.pdb
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\1차정규평가_이준빈.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\first_regural_exam\1차정규평가_이준빈\1차정규평가_이준빈\obj\Debug\net10.0\ref\1차정규평가_이준빈.dll
