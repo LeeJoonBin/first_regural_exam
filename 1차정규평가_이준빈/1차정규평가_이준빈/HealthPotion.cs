@@ -5,4 +5,9 @@ public class HealthPotion : Potion
     public HealthPotion() : base("체력포션", "Potion", 150)
     {
     }
+    public override int CalculatePrice(int count)
+    {
+        int price = count * Prise;
+        return price;
+    }
 }

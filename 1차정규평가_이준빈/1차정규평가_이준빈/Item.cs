@@ -17,8 +17,8 @@ public abstract class Item
         Prise = prise;
     }
     
-    public abstract int CalculatePrice();
-    public virtual int Discount(int count)
+    public abstract int CalculatePrice(int count);
+    public virtual int DiscountPrice(int count)
     {
         int remain;
         if (count >= MINQUANTITY)

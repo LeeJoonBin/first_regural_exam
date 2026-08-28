@@ -4,4 +4,10 @@ public class Armor : Item
 {
     public Armor() : base("천 갑옷", "Item", 800)
     { }
+
+    public override int CalculatePrice(int count)
+    {
+        int price = count * Prise;
+        return price;
+    }
 }
