@@ -2,5 +2,6 @@
 
 public class Weapon : ItemMenu
 {
-    
+    public Weapon(string name, string description, int prise) : base(name, description:, prise)
+    { }
 }

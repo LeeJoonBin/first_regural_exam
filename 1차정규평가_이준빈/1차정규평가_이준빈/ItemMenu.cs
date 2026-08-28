@@ -4,9 +4,9 @@ public abstract class ItemMenu
 {
     protected string Name;
     protected string Description;
-    protected string Prise;
+    protected int Prise;
 
-    public ItemMenu(string name, string description, string prise)
+    protected ItemMenu(string name, string description, int prise)
     {
         Name = name;
         Description = description;
