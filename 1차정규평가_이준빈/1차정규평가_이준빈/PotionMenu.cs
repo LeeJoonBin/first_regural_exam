@@ -15,4 +15,16 @@ public abstract class PotionMenu
         Description = description;
         Prise = prise;
     }
+    
+    protected virtual int Discount(int count)
+    {
+        int remain;
+        if (count >= MINQUANTITY)
+        {
+            
+            remain = (int)(Prise * DISCOUNT_RATE);
+            return remain;
+        }
+        return 0;
+    }
 }
