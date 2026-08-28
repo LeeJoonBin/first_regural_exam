@@ -2,8 +2,8 @@
 
 public class Program
 {
-    static void Main(string[] args)
+    void Main(string[] args)
     {
-        ConsoleInput.ReadIntAtLeast(Manapotion)
+        
     }
 }

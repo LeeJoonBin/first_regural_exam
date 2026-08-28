@@ -8,12 +8,11 @@ public class ThrowingWeapon : Item
     
     public override int CalculatePrice(int count)
     {
+        if (count >= MINQUANTITY)
+        {
+            DiscountPrice(count);
+        }
         int price = count * Prise;
         return price;
-    }
-
-    public override int DiscountPrice(int count)
-    {
-        return base.DiscountPrice(count);
     }
 }

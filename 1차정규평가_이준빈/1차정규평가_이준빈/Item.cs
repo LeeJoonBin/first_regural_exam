@@ -20,15 +20,9 @@ public abstract class Item
     public abstract int CalculatePrice(int count);
     public virtual int DiscountPrice(int count)
     {
-        int remain;
-        if (count >= MINQUANTITY)
-        {
-            
-            remain = (int)(Prise * DISCOUNT_RATE);
+            int remain = (int)(Prise * DISCOUNT_RATE);
             Console.WriteLine($"{MINQUANTITY}개 이상 구매하셔 10% 할인되었습니다.");
             return remain;
-        }
-        return 0;
     }
     
 }
