@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("1차정규평가_이준빈")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8821ed8e83a0bbe824b9883995015bea1be78b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("1차정규평가_이준빈")]
 [assembly: System.Reflection.AssemblyTitleAttribute("1차정규평가_이준빈")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
