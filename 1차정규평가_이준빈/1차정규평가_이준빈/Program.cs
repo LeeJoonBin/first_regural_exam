@@ -1,4 +1,4 @@
-﻿// 
+﻿// https://github.com/LeeJoonBin/first_regural_exam
 namespace _1차정규평가_이준빈;
 using System;
 using System.Collections.Generic;
