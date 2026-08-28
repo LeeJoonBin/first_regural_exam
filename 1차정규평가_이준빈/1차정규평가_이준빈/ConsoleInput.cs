@@ -2,8 +2,8 @@
 
 using System;
 
-public class ConsoleInput  
-{  
+public class ConsoleInput
+{
     public static int ReadIntInRange(string prompt, int min, int max)  
     {  
         while (true)  

@@ -2,6 +2,10 @@
 // 추상클래스 2 아이템메뉴
 public abstract class ItemMenu
 {
+    public const string STORE_NAME = "정규시험 상점";
+    internal const int MINQUANTITY = 3;
+    public const float DISCOUNT_RATE = 0.10f;
+    
     protected string Name;
     protected string Description;
     protected int Prise;
@@ -12,5 +16,16 @@ public abstract class ItemMenu
         Description = description;
         Prise = prise;
     }
-    
+
+    protected virtual int Discount(int count)
+    {
+        int remain;
+        if (count >= MINQUANTITY)
+        {
+            
+            remain = (int)(Prise * DISCOUNT_RATE);
+            return remain;
+        }
+        return 0;
+    }
 }
