@@ -5,9 +5,10 @@ public abstract class Item
     protected const int MINQUANTITY = 3;
     protected const float DISCOUNT_RATE = 0.10f;
     
-    protected string Name;
-    protected string Description;
-    protected int Prise;
+    protected string Name { get; private set; }
+    protected string Description { get; private set; }
+    protected int Prise { get; private set; }
+    protected virtual string InfoDiscount {get; set;}
 
     protected Item(string name, string description, int prise)
     {
@@ -16,7 +17,8 @@ public abstract class Item
         Prise = prise;
     }
     
-    protected virtual int Discount(int count)
+    public abstract int CalculatePrice();
+    public virtual int Discount(int count)
     {
         int remain;
         if (count >= MINQUANTITY)
