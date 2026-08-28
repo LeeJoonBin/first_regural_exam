@@ -2,6 +2,6 @@
 
 public class Armor : ItemMenu
 {
-    public Armor() : base("천 갑옷", "Armor", 800)
+    public Armor() : base("천 갑옷", "Item", 800)
     { }
 }

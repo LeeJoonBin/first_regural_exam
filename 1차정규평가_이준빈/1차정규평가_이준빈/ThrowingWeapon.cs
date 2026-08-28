@@ -2,6 +2,6 @@
 // 할일 가격 적용 예정
 public class ThrowingWeapon : ItemMenu
 {
-    public ThrowingWeapon(): base("투척단검", "Throwingweapon", 300)
+    public ThrowingWeapon(): base("투척무기", "Item", 300)
     {}
 }
