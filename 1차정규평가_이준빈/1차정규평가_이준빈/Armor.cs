@@ -2,7 +2,7 @@
 
 public class Armor : Item
 {
-    public Armor() : base("천 갑옷", "Item", 800)
+    public Armor(string name, string description, int prise) : base(name, description, prise)
     { }
 
     public override int CalculatePrice(int count)

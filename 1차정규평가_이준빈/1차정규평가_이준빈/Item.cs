@@ -5,12 +5,10 @@ public abstract class Item
     protected const int MINQUANTITY = 3;
     protected const float DISCOUNT_RATE = 0.10f;
     protected const int POTION_MINIMUM = 5;
-    protected const float POTION_DISCOUNT_RATE = 0.5f;
     
-    protected string Name { get; private set; }
-    protected string Description { get; private set; }
-    protected int Prise { get; private set; }
-    protected virtual string InfoDiscount {get; set;}
+    protected string Name { get;  set; }
+    protected string Description { get;  set; }
+    protected int Prise { get; set; }
 
     protected Item(string name, string description, int prise)
     {

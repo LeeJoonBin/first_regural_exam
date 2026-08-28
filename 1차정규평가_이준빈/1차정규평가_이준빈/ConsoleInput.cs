@@ -4,7 +4,6 @@ using System;
 
 public class ConsoleInput
 {
-    public const string STORE_NAME = "정규시험 상점";
     public static int ReadIntInRange(string prompt, int min, int max)  
     {  
         while (true)  

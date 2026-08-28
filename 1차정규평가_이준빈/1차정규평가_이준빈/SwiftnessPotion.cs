@@ -2,13 +2,13 @@
 // 할인 가격 적용예정
 public class SwiftnessPotion : Item
 {
-    public SwiftnessPotion() : base("민첩포션", "Potion", 300)
+    public SwiftnessPotion(string name, string description, int prise) : base(name, description, prise)
     {
     }
 
     public override int CalculatePrice(int count)
     {
-        if (count >= POTION_DISCOUNT_RATE)
+        if (count >= POTION_MINIMUM)
         {
             DiscountPrice(count);
         }

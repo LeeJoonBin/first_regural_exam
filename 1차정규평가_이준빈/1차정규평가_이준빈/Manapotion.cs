@@ -2,7 +2,7 @@
 
 public class Manapotion : Item
 {
-    public Manapotion() : base("마나포션", "Potion", 100)
+    public Manapotion(string name, string description, int prise) : base(name, description, prise)
     {
     }
     public override int CalculatePrice(int count)

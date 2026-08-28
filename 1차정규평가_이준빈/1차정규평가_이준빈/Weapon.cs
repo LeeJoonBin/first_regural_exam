@@ -2,7 +2,7 @@
 
 public class Weapon : Item
 {
-    public Weapon() : base("검", "Item", 1000)
+    public Weapon(string name, string description, int prise) : base(name, description, prise)
     { }
     
     public override int CalculatePrice(int count)
