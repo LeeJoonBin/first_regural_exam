@@ -5,9 +5,9 @@ public abstract class Potion
     protected const int MINQUANTITY = 10;
     protected const float DISCOUNT_RATE = 0.40f;
     
-    protected string Name;
-    protected string Description;
-    protected int Prise;
+    protected string Name { get; private set; }
+    protected string Description { get; private set; }
+    protected int Prise  { get; private set; }
     
     protected Potion(string name, string description, int prise)
     {
